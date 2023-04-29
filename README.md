@@ -1,4 +1,5 @@
 # highjack-port
+### (Linux & MacOs)
 
 Highjack-Port is a tool written in C, designed to kill a process that is currently listening on a specified port.
 
@@ -17,7 +18,7 @@ or use the existing binary:
 ### usage
 for running in current directory
 ```
-highjack [port_number]
+./highjack [port_number]
 ```
 #### Adding the executable to the /bin for global access
 Linux
@@ -28,6 +29,11 @@ Mac
 ```
 
 ```
+run after adding executable in bin.
+```
+highjack [port_number]
+```
+
 ## Purpose:
 I have a friend who is into web development and sometimes when he had to host in his localhost, ports would be sometimes pre occupied with some unhandled services running from old tests, so everytime he had to run some series of commands and manually had to check for the process that has occupied the port, and remember the PID of the process and kill them using kill command.
 
