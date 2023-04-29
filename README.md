@@ -44,3 +44,14 @@ then run
 ```
 kill 265938
 ```
+
+### Example
+
+```
+hero@kali:~$ highjack 3000
+Preparing to kill the process with pid : 265938 ....
+PID: 265938 has been killed
+
+```
+The 3000 port was occupied, so using the highhjack the port is highjacked by you now.
+
