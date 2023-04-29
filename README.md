@@ -7,7 +7,7 @@ Highjack-Port is a tool written in C, designed to kill a process that is current
 
 Clone the repo or download:
 ```bash
-git clone https://github.com/nou-man/highjack-port.git
+$ git clone https://github.com/nou-man/highjack-port.git
 ```
 Compile the C file:
 ```
