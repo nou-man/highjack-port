@@ -11,27 +11,27 @@ $ git clone https://github.com/nou-man/highjack-port.git
 ```
 Compile the C file:
 ```
-gcc highjack.c -o highjack
+$ gcc highjack.c -o highjack
 ```
 or use the existing binary:
 
 ### usage
 for running in current directory
 ```
-./highjack [port_number]
+$ ./highjack [port_number]
 ```
 #### Adding the executable to the /bin for global access
 Linux
 ```
-sudo cp /path/to/executable/highjack /usr/bin/
+$ sudo cp /path/to/executable/highjack /usr/bin/
 ```
 Mac
 ```
-
+$ 
 ```
 run after adding executable in bin.
 ```
-highjack [port_number]
+$ highjack [port_number]
 ```
 
 ## Purpose:
@@ -39,7 +39,7 @@ I have a friend who is into web development and sometimes when he had to host in
 
 what he had to run:
 ```
-lsof -n -i :[port_number]
+$ lsof -n -i :[port_number]
 ```
  would show
 ```
@@ -48,7 +48,7 @@ nc      265938 hero    3u  IPv4 1891870      0t0  TCP *:3000 (LISTEN)
 ```
 then run 
 ```
-kill 265938
+$ kill 265938
 ```
 
 ### Example
